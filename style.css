@@ -1,0 +1,1471 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+:root{
+     --text-color-dark: #212121;
+    --text-color-gray: #6b6b6b;
+    --link-color: #007bff; /* A standard blue for links */
+    --border-color: #ccc;
+}
+html {
+    font-family: "Open Sans", sans-serif;
+
+
+
+}
+
+/***********Navbar******************/
+#mobile {
+    display: block;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    background-color: #302216;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo {
+    width: 27%;
+}
+
+
+
+.icon-1 {
+    display: block;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    display: none;
+
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #F5F1ED;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #302216;
+    font-weight: 600;
+}
+
+
+.menu-2 {
+    display: none;
+
+}
+
+.menu-2 ul {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.menu-2 ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+
+    padding: 38px 24px 38px 10px;
+}
+
+.menu {
+    display: block;
+}
+
+.icon {
+    display: flex;
+    display: none;
+
+}
+
+.icon button {
+    background-color: #43301F;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.icon button:hover {
+    background-color: #D38F8F;
+}
+
+/*************** NavBar End ******************/
+
+
+/************Hero Section***************/
+.hero {
+    width: auto;
+    height: auto;
+    position: relative;
+
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+
+    /* object-fit: cover; */
+    z-index: -1;
+}
+
+.title {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    top:50%;
+
+    font-size: 10px;
+}
+
+.btn {
+    margin: 10px;
+
+}
+
+.btn button {
+    padding: 12px;
+    border: none;
+    font-size: 12px;
+    border-bottom-right-radius: 5px;
+    background-color: #BE4C4B;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+/*********End Hero Section************/
+
+/************About Section************/
+
+.about-main {
+    width: 100%;
+
+
+}
+
+.about {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.about img {
+    width: 35%;
+    text-align: center;
+
+}
+
+.about-para p {
+    font-size: 14px;
+    text-align: center;
+    padding: 25px;
+    color: #222222;
+    font-weight: 400;
+}
+
+.Sign-home {
+    text-align: center;
+    color: #43301F;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.about .about-para {
+    width: 50%;
+}
+
+.hero .para1 {
+    z-index: 1000;
+
+}
+
+/***************End About************/
+
+
+/*************Banner-1**************/
+
+.banner {
+
+    width: 100%;
+    margin-top: 10%;
+}
+
+.banner-1 img {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+/************Banner-1 End************/
+
+/*******************Banner-2***********/
+
+.main-banner-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-2 {
+
+    background-color: white;
+
+    width: 80%;
+    position: relative;
+    z-index: 1;
+    top: -80px;
+    /* left: 45px; */
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.banner-2 h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 15px 12px 15px;
+
+
+}
+
+.banner-2 .b-para {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 2px 15px 12px 15px;
+}
+
+.banner-2 .b-btn {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.banner-2 .b-btn button {
+    border: 1px solid #222222;
+    border-bottom-right-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+}
+
+
+
+/*******************Banner-2 End***********/
+
+
+
+/****************** Card ****************/
+
+.details-container {
+    width: 100%;
+
+    margin: 8px;
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+}
+
+.side-icon img {
+
+    width: 25px;
+}
+
+.details-title h3 {
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.details-para p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card-1 {
+    margin-top: 15px;
+    width: 80%;
+    border-radius: 15px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 20px;
+
+
+}
+
+.card-1 img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-para h3 {
+    margin: 10px 20px;
+
+}
+
+.card-para p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 5px;
+}
+
+/******************End Card ****************/
+
+
+
+/* *******************Review*************/
+
+.reviews {
+    margin-top: 25px;
+
+}
+
+.reviews-img img {
+    width: 100%;
+}
+
+.reviews-img {
+    position: relative;
+    top: 0;
+
+}
+
+.r-title h3 {
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+
+    top: 10px;
+}
+
+.reviews-card {
+    z-index: 1;
+    position: absolute;
+
+    background-color: #fff;
+
+    top: 16%;
+    left: 15px;
+}
+
+.r-bg {
+    position: relative;
+}
+
+.r-card_img {
+    width: 100%;
+}
+
+.r-para h4,
+p {
+
+    padding: 2px 5px 10px 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* *******************End Review*************/
+
+
+/* *********************News******************/
+
+.news {
+
+    margin: 17px;
+    text-align: justify;
+
+}
+
+.news-title h3 {
+    font-size: 25px;
+}
+
+
+.news-para {
+    margin-top: 15px;
+}
+
+.news-card {
+    background-image: url("image/img40.jpg");
+}
+
+.news-card-2 {
+    background-image: url("image/img49.jpg");
+}
+
+
+/* *******************End News******************/
+
+
+/* Last Message******************** */
+
+
+
+.last-message {
+    margin-top: 60px;
+    margin-bottom: 0;
+    overflow-x: hidden;
+
+}
+
+.message-img {
+    position: relative;
+}
+
+.message-img img {
+    width: fit-content;
+    height: auto;
+    /* background-repeat: no-repeat; */
+
+
+}
+
+.message-head h3 {
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+.message-title {
+    position: absolute;
+
+    top: 20%;
+    color: #fff;
+    text-align: justify;
+    margin: 15px;
+}
+
+.sub-head h5 {
+    font-size: 17px;
+    margin: 15px;
+
+
+}
+
+.message-para p {
+    font-size: 17px;
+    width: 100%;
+
+    margin: 15px;
+
+
+}
+
+.line {
+    height: 3px;
+    background-color: white;
+    border: 1px solid white;
+    width: 100%;
+
+    margin: 15px;
+}
+
+.second-line {
+    height: 3px;
+    width: 50%;
+    background-color: red;
+
+}
+
+.message-card {
+
+
+    color: #222222;
+    width: 100%;
+
+    margin-top: 15px;
+
+}
+
+.message-card-1 {
+    border: 1px solid pink;
+    background-color: #fff;
+    border-radius: 15px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+
+}
+
+.message-para-card p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.message-card-1:hover {
+    background-image: url("image/img56.jpg");
+
+}
+
+/* Last Message End******************** */
+
+
+/* *****************************Footer */
+.footer-container {
+    width: 100%;
+    margin-top: -25px;
+    background-color: #302216;
+
+
+}
+
+.footer-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img img {
+    width: 6.3125rem;
+    margin-top: 25px;
+
+}
+
+.location-icon {
+    margin-top: 25px;
+}
+
+.footer-card {
+
+    width: 100%;
+    padding: 25px;
+}
+
+.footer-soical {
+    margin: 20px;
+    color: white;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.footer-soical-icon ul {
+    display: flex;
+}
+
+.footer-soical-icon ul li a {
+    color: #fff;
+
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+
+.footer-content {
+    margin: 10px 5px;
+}
+
+.footer-content-line {
+    display: flex;
+
+    padding: 15px;
+
+}
+
+.footer-soical {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-soical-t p {
+    font-size: 16px;
+}
+
+.footer-content-line ul {
+    width: 100%;
+    /* display: flex; */
+
+    /* justify-content: space-evenly; */
+
+}
+
+.footer-content-line ul li {
+
+    margin-top: 10px;
+
+
+
+}
+
+.footer-content-line ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.footer-last p {
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* ***************************End Footer */
+
+
+/* Our Rescipe********************* */
+.hero-r {
+    width: 100%;
+    height: max-content;
+}
+
+.hero-r-bg {
+    width: 100%;
+    position: relative;
+
+}
+
+.hero-r-bg img {
+    width: 100%;
+    /* min-height: 100vh; */
+
+
+    /* background-repeat: no-repeat; */
+}
+
+.r-back {
+    text-decoration: none;
+    position: absolute;
+    top: 2%;
+    font-size: 15px;
+
+}
+
+.r-back a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+
+
+}
+
+.hero-r {
+    height: fit-content;
+}
+
+.r-hero-card {
+
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    flex: wrap;
+    top: 10%;
+
+}
+
+.r-hero-card-one {
+    width: 100%;
+    /* border: 1px solid red;  */
+    margin-top: 20px;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 80%;
+    text-align: center;
+
+
+
+}
+
+
+.r-hero-card-one img {
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+
+
+}
+
+.r-hero-card-two {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.hero-r-title {
+    position: absolute;
+    top: 70%;
+    color: white;
+    left: 20px;
+}
+
+.r-hero-para p {
+    font-size: 17px;
+}
+
+.r-hero-sign p {
+    font-family: "Single Day", cursive;
+    font-size: 20px;
+}
+
+.menu-r {
+    width: 100%;
+    display: flex;
+    padding: 18px;
+}
+
+.menu-button button {
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 17px;
+    border: none;
+    margin: 10px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.menu-button button:hover {
+    background-color: #333F48;
+    color: white;
+}
+
+.box-r {
+    padding: 25px;
+    background-color: #f5f1ed;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+
+    font-size: 25px;
+}
+.box-1 h2{
+    text-align: center;
+}
+
+.box-2 {
+    text-align: center;
+    width: 100%;
+}
+
+.box-2 {
+    display: flex;
+    margin: 25px 20px;
+    justify-content: flex-start;
+}
+
+.box-2 .sub-two p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.box-2 .sub-two {
+    width: 40%;
+    text-align: center;
+}
+
+.box-2 img {
+    width: 50px;
+    text-align: center;
+
+}
+
+.box-3 {
+    width: 100%;
+    text-align: center;
+}
+
+.para-res {
+    display: inline-block;
+
+    justify-content: center;
+}
+
+.box-3 .para-res p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.list {
+    padding: 0px 15px;
+}
+
+.list .details-para p {
+    text-align: left;
+}
+
+
+/* List */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* default mobile layout */
+    max-width: 350px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.tag {
+    display: inline-block;
+    background: #d6f0e1;
+    color: #2e6447;
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.steps {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.btn-card {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-card:hover {
+    background: black;
+    color: white;
+}
+
+/* Desktop version */
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        /* image left, text right */
+        max-width: 800px;
+    }
+
+    .card img {
+        width: 50%;
+        height: auto;
+    }
+
+    .card-content {
+        flex: 1;
+        padding: 20px;
+    }
+}
+
+/* End List */
+
+
+/* Coffee Promo */
+
+.coffee-promo {
+    /* Set up the main section layout */
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Stretch children to fill height */
+    max-width: 1200px; /* Example max width */
+    margin: 50px auto; /* Center the section on the page */
+    background-color:#CEB8A4;
+    color: var(--text-color);
+    padding: 0; /* No internal padding on the main container */
+    position: relative; /* Needed for positioning the 'Privacy Policy' strip */
+    min-height: 500px;
+     /* Ensure a decent height for the section */
+}
+
+/* --- Content Box (Left Side) --- */
+.content-box {
+    flex: 1; /* Takes up one part of the space (e.g., 50%) */
+    padding: 60px 80px; /* Internal padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    box-sizing: border-box; /* Include padding in the element's total width/height */
+}
+
+.tagline {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2.5rem; 
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid var(--button-border-color);
+    background-color: transparent; 
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s;
+    width: fit-content; 
+}
+
+.cta-button:hover {
+    background-color: rgba(56, 44, 27, 0.1);
+}
+
+/* --- Image Box (Right Side) --- */
+.image-box {
+    flex: 1; 
+    min-height: 100%;
+    overflow: hidden; 
+}
+
+.image-box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+/* --- Side Policy Bar (The rotated 'Privacy Policy' on the left) --- */
+.side-policy {
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: 0 0; /* Rotate from the top-left corner */
+    
+    /* Styling */
+    background-color: #e5d8c3; /* Slightly different shade than the main background */
+    color: var(--text-color);
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    white-space: nowrap; /* Keep the text on a single line */
+}
+
+/* --- Responsive adjustments (Optional but good practice) --- */
+@media (max-width: 800px) {
+    .coffee-promo {
+        flex-direction: column; /* Stack elements vertically on small screens */
+    }
+    
+    .content-box {
+        padding: 40px 20px;
+        text-align: center;
+        align-items: center; /* Center items in the stacked layout */
+    }
+    
+    .image-box {
+        min-height: 300px; /* Give the image a fixed height when stacked */
+    }
+    
+    .cta-button {
+        width: 100%; /* Make button full width in the smaller content box */
+    }
+
+    .side-policy {
+        /* Hide or reposition on very small screens if it causes issues */
+        display: none; 
+    }
+}
+/*End Coffee Promo */
+
+
+
+/* Card Demo */
+.card-demo-list{
+    background-color: #B1CEB6;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.card-list{
+    background-color: #fff;
+}
+/* Card Demo */
+
+
+/* Media Query */
+@media only screen and (min-width:768px) {
+    .logo {
+        width: 15%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .title {
+        
+        width: 65%;
+        font-size: 14px;
+        left: 20%;
+    }
+
+    .menu {
+        font-size: 14px;
+    }
+
+    .btn button {
+        font-size: 16px;
+
+    }
+
+    .about img {
+        width: 27%;
+    }
+
+
+    .banner-2 h3 {
+        font-size: 20px;
+        padding: 20px;
+        align-items: center;
+
+    }
+
+    .details-container {
+
+        text-align: center;
+    }
+
+    .card-1 {
+        width: 27%;
+
+    }
+
+    .card-1 img {
+        width: 100%;
+    }
+
+    .reviews-card {
+        width: 70%;
+        top: 20%;
+        margin-left: 90px;
+
+    }
+
+    .r-card_img {
+        width: 100%;
+
+    }
+
+    .r-para h4,
+    p {
+
+        padding: 2px 5px 25px 5px;
+        font-size: 24px;
+    }
+
+    .r-title {
+        font-size: 28px;
+        top: 65px;
+        padding: 10px;
+
+    }
+
+
+    .news-title h3 {
+        font-size: 30px;
+    }
+
+    .news-para p {
+        font-size: 15px
+    }
+
+    .message-title {
+        left: 5%;
+    }
+
+    /* .hero-r-bg img{
+        height: 100vh;
+        width: 100%;
+    } */
+
+
+    .r-hero-card-one img {
+        width: 60%;
+        height: 100%;
+
+        border-radius: 15px;
+    }
+
+    .list .details-para p {
+        font-size: 17px;
+    }
+}
+
+
+@media only screen and (min-width:1024px) {
+
+    .menu-2 {
+        display: block;
+        width: 27%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .icon-1 {
+        display: none;
+    }
+
+    .logo {
+        width: 10%;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .title {
+        /* top: 30%; */
+        left: 20%;
+        font-size: 30px;
+    }
+
+    .about img {
+        width: 17%;
+    }
+
+    .about-para p {
+        font-size: 17px;
+
+    }
+
+    .details-para {
+        text-align: center;
+    }
+
+    .banner-2 {
+        width: 70%;
+        top: -90px;
+
+    }
+
+    .banner-2 h3 {
+        font-size: 40px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .banner-2 .b-para {
+        font-size: 16px;
+        padding: 10px 20px 20px 20px;
+    }
+
+    .banner-2 .b-btn button {
+        font-size: 18px;
+        padding: 15px 25px 15px 25px;
+    }
+
+    .details-container {
+
+        text-align: center;
+    }
+
+    .card-1 {
+        width: 20%;
+
+    }
+
+    .card-1 img {
+        width: 100%;
+    }
+
+    .card-1 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .reviews-card {
+        width: 80%;
+        margin-left: 90px;
+        top: 11%;
+
+    }
+
+    .r-title h3 {
+        font-size: 35px;
+        margin-left: 150px;
+
+    }
+
+
+    .message-title {
+        left: 25%;
+    }
+
+    .message-card-1 {
+        display: block;
+        width: 25%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .message-card {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .m-card img {
+        width: 50%;
+
+    }
+
+    .r-hero-card {
+        display: flex;
+        width: 100%;
+    }
+
+    .list .details-para p {
+        text-align: center;
+    }
+}
+
+
+
+/* --- Main Container & Layout (Flexbox) --- */
+.signup-page-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* --- Left Side: Content --- */
+.content-side {
+    flex: 1; /* Takes up one part of the space */
+    padding-right: 80px;
+}
+
+.main-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-color-dark);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: var(--text-color-dark);
+}
+
+/* --- Right Side: Form --- */
+.form-side {
+    flex: 1; /* Takes up one part of the space */
+    padding-left: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Form Groups (Inputs) --- */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: var(--text-color-dark);
+}
+
+.required-text {
+    color: var(--text-color-gray);
+    font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding/border in width */
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: #a0a0a0;
+}
+
+/* --- Checkbox and Legal Text Group --- */
+.form-group-checkbox {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+    /* Style the actual checkbox */
+    margin-right: 10px;
+    margin-top: 3px; /* Align with text */
+    flex-shrink: 0; /* Prevent checkbox from shrinking */
+}
+
+.checkbox-label {
+    font-size: 0.95rem;
+    color: var(--text-color-dark);
+    line-height: 1.4;
+}
+
+.required-asterisk {
+    color: red; /* Asterisk is red in the screenshot */
+    font-weight: bold;
+}
+
+.legal-text {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: var(--text-color-gray);
+    margin-top: 10px;
+}
+
+.link {
+    color: var(--link-color); /* Matches the blue link text in the image */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* --- Sign Up Button --- */
+.sign-up-button {
+    align-self: flex-start; /* Aligns the button to the left */
+    padding: 10px 30px;
+    border: 1px solid var(--text-color-dark);
+    background-color: transparent;
+    color: var(--text-color-dark);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.sign-up-button:hover {
+    background-color: var(--text-color-dark);
+    color: white;
+}
+
+/* --- Responsive adjustments (for smaller screens) --- */
+@media (max-width: 768px) {
+    .signup-page-container {
+        flex-direction: column; /* Stack vertically */
+    }
+
+    .content-side {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .form-side {
+        padding-left: 0;
+    }
+
+    .sign-up-button {
+        align-self: stretch; /* Button full width */
+    }
+}
