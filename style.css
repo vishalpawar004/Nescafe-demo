@@ -424,12 +424,17 @@ p {
 }
 
 .news-title h3 {
+    text-align: center;
     font-size: 25px;
+    
 }
 
 
 .news-para {
-    margin-top: 15px;
+    text-align: center;
+    margin: 25px;
+    padding-left:35px ;
+  
 }
 
 .news-card {
